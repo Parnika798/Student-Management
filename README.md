@@ -2,14 +2,22 @@ Project Description
 This project is a menu-driven Java application that helps manage student records.
 It demonstrates key Object-Oriented Programming (OOP) concepts such as classes, objects, constructors, instance members, and arrays of objects (ArrayList).
 
+
 The program allows users to:
 
 Add a Student
+
 Display all Students
+
 Search for a Student (by PRN, Name, or Position)
+
 Update Student Details
+
 Delete a Student
+
 Project Structure
+
+
 The project consists of multiple Java files, each handling a specific responsibility:
 
 Student.java - Defines the Student class with attributes and methods.
