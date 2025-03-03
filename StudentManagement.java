@@ -24,6 +24,7 @@ public class StudentManagement {
             System.out.println("Invalid input. Try again.");
         }
     }
+    
 
     public void displayStudents() {
         if (students.isEmpty()) {
