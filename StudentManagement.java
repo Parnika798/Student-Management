@@ -48,6 +48,7 @@ public class StudentManagement {
         }
         System.out.println("Student not found.");
     }
+    
 
     public void searchByName() {
         System.out.print("Enter Name to search: ");
