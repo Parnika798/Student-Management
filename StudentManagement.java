@@ -59,6 +59,7 @@ public class StudentManagement {
             }
         }
     }
+    
 
     public void searchByPosition() {
         System.out.print("Enter position (index): ");
