@@ -37,6 +37,7 @@ public class StudentManagement {
     }
 
     
+    
     public void searchByPRN() {
         System.out.print("Enter PRN to search: ");
         String prn = scanner.next();
@@ -71,6 +72,7 @@ public class StudentManagement {
         }
     }
 
+    
     public void updateStudent() {
         System.out.print("Enter PRN to update: ");
         String prn = scanner.next();
