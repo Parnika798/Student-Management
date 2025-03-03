@@ -15,6 +15,8 @@ Update Student Details
 
 Delete a Student
 
+
+
 Project Structure
 
 
@@ -27,6 +29,7 @@ StudentManagement.java - Contains all student operations (Add, Display, Search, 
 Main.java - Implements a menu-driven system to interact with users.
 
 
+
 Features & Functions
 1. Student.java (Defines Student Attributes)
    
@@ -37,16 +40,29 @@ getPrn(), getName(), getDob(), getMarks(): Getter methods for retrieving details
 setMarks(double marks): Updates student marks.
 
 display(): Prints student details.
-3. StudentManagement.java (Handles All Operations)
+
+2. StudentManagement.java (Handles All Operations)
+   
 addStudent(): Adds a new student by taking input from the user.
+
 displayStudents(): Displays the list of all students.
+
 searchByPRN(): Searches a student by PRN.
+
 searchByName(): Searches students by Name.
+
 searchByPosition(): Searches a student by ArrayList index.
+
 updateStudent(): Updates student marks by PRN.
+
 deleteStudent(): Deletes a student by PRN.
-4. Main.java (User Interface)
+
+3. Main.java (User Interface)
+   
 Implements a menu-driven system with a loop.
+
 Allows users to select an operation via keyboard input.
+
 Calls corresponding functions from StudentManagement.java.
+
 Uses switch-case to handle menu choices.
